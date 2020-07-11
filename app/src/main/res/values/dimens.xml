@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Margins -->
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_44dp">44dp</dimen>
+    <dimen name="_56dp">56dp</dimen>
+    <dimen name="_62dp">62dp</dimen>
+
+    <!--Loading dimens-->
+    <dimen name="loading_image_size">50dp</dimen>
+
+    <!--Weather dimens-->
+    <dimen name="current_title_size">26sp</dimen>
+    <dimen name="current_temperature_text_size">96sp</dimen>
+    <dimen name="current_temperature_text_height">112sp</dimen>
+    <dimen name="location_text_height">52sp</dimen>
+    <dimen name="location_text_size">36sp</dimen>
+    <dimen name="forecast_text_size">16sp</dimen>
+    <dimen name="forecast_list_elevation">20dp</dimen>
+
+    <!--Error views dimens-->
+    <dimen name="retry_text_size">16sp</dimen>
+    <dimen name="error_text_size">54sp</dimen>
+
+</resources>

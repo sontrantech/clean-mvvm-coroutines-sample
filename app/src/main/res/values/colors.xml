@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base colors-->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#808080</color>
+
+    <!--Weather colors-->
+    <color name="normal_text">#2A2A2A</color>
+    <color name="location_text">#556799</color>
+
+    <!--Error views colors-->
+    <color name="retry_bg">#4A4A4A</color>
+    <color name="error_view_bg">#E85959</color>
+    <color name="elevation_color">#BDBDBD</color>
+    <color name="weather_activity_bg">#F5F6F7</color>
+
+</resources>

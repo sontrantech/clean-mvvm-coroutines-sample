@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+
+    <!-- weather error strings-->
+    <string name="action_retry">Retry</string>
+    <string name="failure_server_error">Server Error</string>
+    <string name="failure_network_connection">No Network Connection.</string>
+    <string name="failure_weather_list_unavailable">Forecast Unavailable.</string>
+    <string name="get_weather_error">Something went wrong at our end</string>
+
+    <!-- weather success strings-->
+    <string name="current_temp">%1$s\u00B0</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- loading strings-->
+    <string name="loading_view_content">loading view content</string>
+    <string name="current_title">Current</string>
+
+</resources>

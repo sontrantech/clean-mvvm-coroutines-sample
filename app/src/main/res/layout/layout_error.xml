@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llError"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/error_view_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:text="@string/get_weather_error"
+        android:textColor="@color/white"
+        android:textSize="@dimen/error_text_size" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_44dp"
+        android:background="@color/retry_bg"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingStart="@dimen/_30dp"
+        android:paddingLeft="@dimen/_30dp"
+        android:paddingTop="@dimen/_10dp"
+        android:paddingEnd="@dimen/_30dp"
+        android:paddingRight="@dimen/_30dp"
+        android:paddingBottom="@dimen/_10dp"
+        android:text="@string/action_retry"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/retry_text_size" />
+</androidx.appcompat.widget.LinearLayoutCompat>
