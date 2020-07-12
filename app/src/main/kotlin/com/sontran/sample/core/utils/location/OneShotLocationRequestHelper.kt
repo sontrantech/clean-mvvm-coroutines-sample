@@ -9,7 +9,7 @@ import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.location.LocationServices
-import com.tbruyelle.rxpermissions2.RxPermissions
+import com.sontrantech.rxpermissions2.RxPermissions
 import java.lang.ref.WeakReference
 
 
@@ -21,8 +21,8 @@ interface OnRequestLocationListener {
 
 /**
  * This class helps Activity/Fragment to get the last known location of the device
- * only one time to save battery when the method is called
- * @see com.sontran.sample.core.utils.location.OneShotLocationRequestHelper#requestCurrentLocation()
+ * only one time to save battery when the method is being called
+ * @see com.sontran.sample.core.utils.location.OneShotLocationRequestHelper.requestCurrentLocation
  * It also asks customer for the location permission if needed.
  */
 class OneShotLocationRequestHelper(
@@ -72,7 +72,7 @@ class OneShotLocationRequestHelper(
                     }
                 }
 
-                fusedLocationClient.requestLocationUpdates(mLocationRequest, locationCallback, null);
+                fusedLocationClient.requestLocationUpdates(mLocationRequest, locationCallback, null)
 
             } else {
                 listener?.onFail()

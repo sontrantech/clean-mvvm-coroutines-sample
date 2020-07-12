@@ -20,7 +20,7 @@ ext {
     javaxInject_version = '1'
     retrofit_version = '2.9.0'
     okhttp_logging_interceptor_version = '4.7.2'
-    rxpermission_version = '6c298c93eb' // fix the method locking issue in the original version
+    rxpermission_version = '0.11.1' // fix the method locking issue in the original version
     rxbinding_version = '2.2.0'
     timber_version = '4.7.1'
 

@@ -1,17 +1,22 @@
 # A simple Android sample project
 
 This project is written in Kotlin 1.3.71.
-It was meant to show current temperature in Saigon and the average temperatures of the next days in forecast. 
-It's also a sample project which implementing [Clean Architecture](https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029) and MVVM architectural pattern, using Android Architecture Components, Dagger 2, Retrofit and Coroutines in Kotlin.
+
+It was meant to show current temperature in Saigon and the morning temperatures of the next days in forecast. 
+
+It's also a sample project which implementing [Clean Architecture](https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029) and MVVM architectural pattern, using Android Architecture Components, Dagger 2, Retrofit and Kotlin Coroutines.
 
 ## User Interface
 
 ### Weather Screen
 
-The Weather screen has 3 parts: 
-    - Loading view appears while getting weather data
-    - The views which show weather data after getting data successfully from server 
-    - Error message and retry button are showed in case the getting data api is failed.  
+The Weather screen has 3 parts:
+
+  * Loading view appears while getting weather data
+
+  * The views which show weather data after getting data successfully from server 
+
+  * Error message and retry button are showed in case the getting data api is failed.  
 
 ## Be excellent to each other
 
@@ -27,7 +32,7 @@ Feel free to join in the discussion, file issues, and i'd love to improve and he
 
 All of these ideas and even some of the language are directly influenced by article:
 
-  - [Architecting Android...Reloaded](https://fernandocejas.com/2018/05/07/architecting-android-reloaded/) - An article about architecture on Android applications, aim to improve theirs Scalability, Modularization, Testability, Independence of frameworks, UI and Databases. 
+  - [Architecting Android...Reloaded](https://fernandocejas.com/2018/05/07/architecting-android-reloaded/) - An article about architecture on Android applications.
 
 ## Author
 
